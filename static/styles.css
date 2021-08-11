@@ -1,7 +1,14 @@
-h1, h2 {
-    color: rgb(236, 96, 107);
-    width: 500px;
-    font-family: "Copperplate";
+h1{
+  margin-left: 3%;
+  margin-top: 3%;
+  color: rgb(236, 96, 107);
+  width: 500px;
+  font-family: "Copperplate";
+}
+
+h2 {
+  color: rgb(49, 49, 49);
+  font-family: "Copperplate";
 }
 
 h6 {
@@ -16,7 +23,7 @@ h6 {
 }
 
 .nav-link{
-  color: rgb(71, 67, 67);
+  color:  rgb(236, 96, 107);
   width: 500px;
   font-family: "Copperplate";
 }
@@ -26,9 +33,8 @@ img{
   height : 450px;
 }
 
-body
-{
-  margin-left: 10%;
-  margin-right: 10%;
+body{
+    background-color:  rgb(209, 207, 207);
 }
+
 

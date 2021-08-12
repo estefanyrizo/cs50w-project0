@@ -2,23 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Forum&family=Great+Vibes&family=Indie+Flower&family=Poller+One&family=Sansita:wght@700&display=swap');
 
 h1{
-  margin-left: 3%;
+  margin-left: 8%;
   margin-top: 3%;
+  margin-bottom: 3%;
   color: rgb(236, 96, 107);
-  width: 500px;
-  text-align : center;
+  text-align: left;
+  font-size: 300%; 
   font-family: 'Poller One', cursive;
 }
 
 h2 {
-  color: rgb(49, 49, 49);
+  color: #313131;
+  margin-top: 3%;
   font-family: 'Sansita', sans-serif;
+  font-size: 220%; 
 }
 
 h6 {
-  font-size: medium; 
+  font-size: 200%; 
   text-align: justify;
   font-family: 'Scheherazade', serif;
+  font-size: 200%; 
 }
 
 .title {
@@ -29,21 +33,34 @@ h6 {
 
 nav{
   font-family: "Times New Roman", Times, serif;
+  font-size: 120%; 
 }
 
 .link{
   color:  rgb(236, 96, 107);
   width: 500px;
   font-family: 'Scheherazade', serif;
+  font-size: 200%; 
 }
 
-img{
-  width : 350px;
-  height : 450px;
+.mi_foto{
+  width: 450px;
+  height: 550px;
+  border-radius: 3%;
+  margin-left: 20%
 }
 
+.megusta{
+  margin-left: 6%;
+  margin-top: 10%;
+}
+
+table{
+  margin-top: 4%;
+}
 body{
     background-color:  rgb(226, 222, 222);
 }
+
 
 

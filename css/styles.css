@@ -23,6 +23,7 @@ h6 {
   text-align: justify;
   font-family: 'Scheherazade', serif;
   font-size: 200%; 
+  line-height : 50px;
 }
 
 .title {
@@ -47,8 +48,20 @@ nav{
   width: 450px;
   height: 550px;
   border-radius: 3%;
-  margin-left: 20%
+  margin-left: 20%;
 }
+
+.mi_foto2{
+  width: 300px;
+  height: 350px;
+}
+
+.mi_foto2{
+  width: 350px;
+  height: 320px;
+  margin-left: 5%;
+}
+
 
 .megusta{
   margin-left: 6%;
@@ -58,8 +71,13 @@ nav{
 table{
   margin-top: 4%;
 }
+
+img{
+  margin-right: 8%;
+}
+
 body{
-    background-color:  rgb(226, 222, 222);
+    background-color:  rgb(214, 211, 211);
 }
 
 

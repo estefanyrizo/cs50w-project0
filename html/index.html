@@ -2,112 +2,109 @@
 <html>
 
 <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estefany Rizo</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href="/css/styles.css" rel="stylesheet" />
-    <title>Estefany Rizo</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark  " style="background-color: #292a2b;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-sm navbar-dark  " style="background-color: #292a2b;">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <span class="navbar-text">
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="sobre_mi.html">Sobre mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-
-                    </ul>
-                </div>
-
-            </span>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-xs-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre_mi.html">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
         </div>
     </nav>
 
     <h1>Hola mundo, soy Estefany </h1>
 
-    <div class="container-fluid ml-4">
-        <div class="row mt-4">
-            <div class="col-lg-4">
+    <div class="container-fluid text-center">
+        <div class="row sobre_mi">
+            <div class="col-xs-5">
 
-                <img class="mi_foto"  src="/css/IMG_2072.JPG">
+                <img class="mi_foto" src="/css/IMG_2072.JPG">
 
             </div>
 
-            <div class="col-lg-7 d-flex align-items-start flex-column bd-highlight mb-3" style="height: 200px;">
-
-                <h6> Soy de un municipio de Matagalpa, actualmente estudio la carrera de Ingeniería en Sistemas. Me
-                    gusta bailar, programar, escuchar música y mi pasatiempo favorito es crashear los programas que hago xd.
-                    Soy una persona muy creativa y con mucha imaginación. Me gusta hacer reír bastante a la gente.
-                    Disponible en cualquier momento, en caso de que mis conocimientos te ayuden a crecer o si necesitas
-                    a alguien con quien conversar :3. </h6>
-
+            <div class="col-xs-7 text-left" id="info">
+                <h6>
+                    <p> Soy de un municipio de Matagalpa, actualmente estudio la carrera de Ingeniería en Sistemas. Me
+                        gusta bailar, programar, escuchar música y mi pasatiempo favorito es crashear los programas que
+                        hago xd.
+                        Soy una persona muy creativa y con mucha imaginación. Me gusta hacer reír bastante a la gente.
+                        Disponible en cualquier momento, en caso de que mis conocimientos te ayuden a crecer o si
+                        necesitas
+                        a alguien con quien conversar :3.
+                    </p>
+                </h6>
                 <h2>Lo que mas me gusta hacer</h2>
 
                 <ul>
-                    <li class="nav-item"><a class="link" href="bailar.html">Bailar</a></li>
-                    <li class="nav-item"><a class="link" href="series.html">Ver series</a></li>
+                    <li><a class="link" href="bailar.html">Bailar</a></li>
+                    <li><a class="link" href="series.html">Ver series</a></li>
                 </ul>
+            </div>
         </div>
-    </div>
 
-        <img src="/css/sticker1.png" ALIGN=RIGHT>
+        <img class="sticker" src="/css/sticker1.png">
 
-        <div class="container-fluid ml-4">
-        <div class="row mt-4">
-            <div class="col-lg-10">
-
-
-        <div class ="megusta">
-            <h2>Top de cosas que me gustan</h2>
-            <table class="table table-hover table-dark">
-                <thead>
-                    <tr>
-                    <th scope="col">Catgeoria</th>
+        <h2 class="mt-0">Top de cosas que me gustan</h2>
+        <table class="table table-hover table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">Categoria</th>
                     <th scope="col">Primer lugar</th>
                     <th scope="col">Segundo lugar</th>
                     <th scope="col">Tercer lugar</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
                     <th scope="row">Comida</th>
                     <td>Jalapeño</td>
                     <td>Chopsuey</td>
                     <td>Quesillo con maduro</td>
-                    </tr>
-                    <tr>
+                </tr>
+                <tr>
                     <th scope="row">Serie</th>
                     <td>Miraculous</td>
                     <td>Boys over flowers</td>
                     <td>La casa de papel</td>
-                    </tr>
-                    <tr>
+                </tr>
+                <tr>
                     <th scope="row">Peliculas</th>
                     <td>Nose</td>
                     <td>Nose</td>
                     <td>Cenicienta</td>
-                    </tr>
-                    <th scope="row">Red social</th>
-                    <td>Instagram</td>
-                    <td>WhatsApp</td>
-                    <td>TikTok</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>   
-    </div>
-    </div>
+                </tr>
+                <th scope="row">Red social</th>
+                <td>Instagram</td>
+                <td>WhatsApp</td>
+                <td>TikTok</td>
+                </tr>
+            </tbody>
+        </table>
+
 
 
 </body>

@@ -18,8 +18,7 @@ h2 {
   font-size: 220%; 
 }
 
-h6 {
-  font-size: 200%; 
+p {
   text-align: justify;
   font-family: 'Scheherazade', serif;
   font-size: 200%; 
@@ -82,11 +81,10 @@ p::selection
 .sticker{
   width: 220px;
   height: 250px;
-  margin-bottom: 0;
-  margin-top: 3%;
+
 }
 
-#info
+#info, #redessociales
 {
   margin-left: 3rem;
 }
@@ -109,7 +107,7 @@ body{
       margin-right: 0;
     }
 
-    #info
+    #info, #redessociales
     {
       margin-left: 0;
     }
@@ -128,7 +126,7 @@ body{
     object-fit: cover;
     }
 
-    h6
+    p
     {    
       font-size: 180%; 
     }

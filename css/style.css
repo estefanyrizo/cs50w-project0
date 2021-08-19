@@ -89,6 +89,17 @@ p::selection {
 .sticker {
   width: 220px;
   height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sticker2 {
+  width: 220px;
+  height: 270px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #info,
@@ -97,8 +108,8 @@ p::selection {
 }
 
 #texto {
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 #contacto {
@@ -124,11 +135,9 @@ body {
   .mi_foto2 {
     width: 200px;
     height: 250px;
-    margin-top: 3%;
-    margin-left: 18%;
-    margin-bottom: 3%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .mi_foto {
     width: 90%;
@@ -136,13 +145,19 @@ body {
     height: 90%;
     -o-object-fit: cover;
        object-fit: cover;
+    -ms-flex-line-pack: middle;
+        align-content: middle;
   }
   p {
     font-size: 180%;
   }
   .sticker {
-    width: 120px;
-    height: 150px;
+    width: 150px;
+    height: 180px;
+  }
+  .sticker2 {
+    width: 150px;
+    height: 200px;
   }
   .navbar-collapse {
     display: -webkit-box;
@@ -152,8 +167,9 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .media {
-    margin-right: 2rem;
+  #texto {
+    margin-left: 1;
+    margin-right: 1;
   }
 }
 /*# sourceMappingURL=style.css.map */

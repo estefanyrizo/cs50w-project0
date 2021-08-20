@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Great+Vibes&family=Indie+Flower&family=Poller+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Forum&family=Great+Vibes&family=Indie+Flower&family=Poller+One&family=Sansita:wght@700&display=swap");
 
+
+// Variables
 $colorcito: rgb(236, 96, 107);
 $colorcito2: rgb(121, 117, 117);
 
+// Herencia
 %centrar {
   display:block;
   margin-left: auto;
@@ -65,6 +68,7 @@ p::selection {
   margin-left: 10rem;
 }
 
+// Anidamiento SCSS
 .series-top-box
 {
   background-color: rgb(29, 29, 29);
@@ -134,7 +138,7 @@ body {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   
   .sobre_mi {
     flex-wrap: wrap;

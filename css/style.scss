@@ -4,7 +4,7 @@
 $colorcito: rgb(236, 96, 107);
 $colorcito2: rgb(121, 117, 117);
 
-%centrar{
+%centrar {
   display:block;
   margin-left: auto;
   margin-right: auto;
@@ -61,27 +61,31 @@ p::selection {
   @extend %centrar;
 }
 
-.redessociales {
+#info {
   margin-left: 10rem;
 }
 
-.card
+.series-top-box
 {
-  max-width: 18%;
-  color:white;
-  background-color: transparent;
-  width: 15rem;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
+  background-color: rgb(29, 29, 29);
+  margin-top: 2%;
+  .card
+  {
+    max-width: 18%;
+    color:white;
+    background-color: transparent;
+    margin-left: 1%;
+    margin-right: 1%;
 
-  .serie {
-    width: 250px;
-    height: 280px;
+    .serie {
+      width: 250px;
+      height: 310px;
+    }
   }
 }
 
 body {
-  
+
   background-color: rgb(214, 211, 211);
   h1 {
     margin-left: 5%;
@@ -131,6 +135,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  
   .sobre_mi {
     flex-wrap: wrap;
     margin-left: 0;
@@ -145,7 +150,9 @@ body {
   .mi_foto2 {
     width: 200px;
     height: 250px;
-    @extend %centrar;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .mi_foto {
@@ -171,7 +178,26 @@ body {
   }
 
   #texto {
-    margin-left: 1;
-    margin-right: 1;
+    font-size: 180%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
+
+  .series-top-box
+  {
+    background-color: rgb(29, 29, 29);
+    margin-top: 1%;
+    .card
+    {
+      max-width: 20%;
+      margin-left: 0.8%;
+      margin-right: 0.8%;
+
+      .serie {
+        width: 100px;
+        height: 150px;
+      }
+    }
+  }
+
 }

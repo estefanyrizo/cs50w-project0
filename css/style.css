@@ -130,7 +130,37 @@ body #contacto {
   color: #797575;
 }
 
-@media only screen and (max-width: 800px) {
+#c_info
+{
+  margin-left: 10%;
+}
+
+#c_info  p{
+  font-size: large;
+  line-height: 30px;
+  margin-bottom: 0.5rem;
+}
+
+#c_info  h2{
+  font-size: xx-large;
+  margin-bottom: 0;
+  margin-top: 1.5%;
+}
+
+#c_info link{
+  font-size: x-large;
+}
+
+
+#cont_foto2 , #mi_foto2
+{
+  width: 450px;
+  height: 530px;
+  border-radius: 3%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
   .sobre_mi {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -190,5 +220,26 @@ body #contacto {
     width: 100px;
     height: 150px;
   }
+
+  #c_info
+  {
+    margin-left: 0%;
+  }
+
+  #cont_foto2
+  {
+    width: 90vw;
+    height: 70vh;
+  }
+
+  #mi_foto2
+  {
+    object-fit: cover;
+    width: 90vw;
+    height: 70vh;
+  }
 }
+
+
+
 /*# sourceMappingURL=style.css.map */

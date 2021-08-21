@@ -37,7 +37,7 @@ p::selection {
 }
 
 .mi_foto2 {
-  width: 350px;
+  width: 320px;
   height: 320px;
   margin-left: 5%;
   margin-bottom: 5%;
@@ -69,6 +69,36 @@ p::selection {
 }
 
 // Anidamiento SCSS
+
+#c_info {
+  margin-left: 10%;
+  p {
+    font-size: large;
+    color:rgb(121, 117, 117);
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: xx-large;
+    margin-bottom: 0;
+    margin-top: 1rem;
+  }
+
+  link{
+    font-size: x-large;
+  }
+}
+
+#cont_foto {
+  #mi_foto {
+  width: 400px;
+  height: 550px;
+  border-radius: 3%;
+  object-fit: cover;
+  }
+}
+
 .series-top-box
 {
   background-color: rgb(29, 29, 29);
@@ -103,7 +133,7 @@ body {
   
   h2 {
     color: #313131;
-    margin-top: 3%;
+    margin-top: 2%;
     font-family: "Sansita", sans-serif;
     font-size: 220%;
   }
@@ -126,7 +156,7 @@ body {
     font-size: 120%;
   }
 
-  #texto {
+  .texto {
     margin-left: 2rem;
     margin-right: 2rem;
   }
@@ -181,7 +211,7 @@ body {
     justify-content: center;
   }
 
-  #texto {
+  .texto {
     font-size: 180%;
     margin-left: 0.5rem;
     margin-right: 0.5rem;

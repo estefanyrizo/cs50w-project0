@@ -84,7 +84,7 @@ p::selection {
   font-size: x-large;
 }
 
-#cont_foto #mi_foto {
+#cont_foto .mi_foto {
   width: 400px;
   height: 550px;
   border-radius: 3%;
@@ -218,6 +218,15 @@ body #contacto {
   .series-top-box .card .serie {
     width: 100px;
     height: 150px;
+  }
+  #cont_foto .mi_foto {
+    width: 90%;
+    border-radius: 1%;
+    height: 90%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -ms-flex-line-pack: middle;
+        align-content: middle;
   }
 }
 /*# sourceMappingURL=style.css.map */

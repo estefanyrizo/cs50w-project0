@@ -33,9 +33,9 @@ p::selection {
 
 .mi_foto2 {
   width: 350px;
-  height: 320px;
   margin-left: 5%;
   margin-bottom: 5%;
+  object-fit: cover;
 }
 
 .megusta {

@@ -13,16 +13,6 @@
   font-size: 200%;
 }
 
-p::-moz-selection {
-  color: #f89a9a;
-  background-color: #757575;
-}
-
-p::selection {
-  color: #f89a9a;
-  background-color: #757575;
-}
-
 .mi_foto {
   width: 450px;
   height: 530px;
@@ -61,6 +51,10 @@ p::selection {
 
 #info {
   margin-left: 10rem;
+}
+
+.series-top-box:hover {
+  background-color: #ec606b;
 }
 
 #c_info {
@@ -131,11 +125,25 @@ body h2 {
   font-size: 220%;
 }
 
+body h2:hover {
+  background-color: #ec606b;
+}
+
 body p {
   text-align: justify;
   font-family: "Scheherazade", serif;
   font-size: 200%;
   line-height: 50px;
+}
+
+body p::-moz-selection {
+  color: #f89a9a;
+  background-color: #757575;
+}
+
+body p::selection {
+  color: #f89a9a;
+  background-color: #757575;
 }
 
 body .title {
